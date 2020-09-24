@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			//单分支----if条件判断语句
+			var a1 = 1;
+			if(a1>5){
+				console.log(a1);
+			}
+			
+			//双分支语句格式
+			//求两个数的最大数；
+			var a2 =10,a3=20;
+			if(a2>a3){
+				console.log("最大数为a2");
+			}else{
+				console.log("最大数为a3");
+			}
+			
+			//多分支语句格式
+			//计算y值并输出。
+			var x1 = 5;
+			if(x1<1){
+				console.log("y等于"+x1);
+			}else if(1<=x1 && x1<10){
+				console.log("y等于"+(2*x1+1));
+			}else{
+				console.log("y等于"+(5*x1-17));
+			}
+			
+			//多分支——switch语句
+			//按照考试成绩的等级，输出百分制数段.
+			var grade ="A";
+			switch(grade){
+				case "A":
+				console.log("分数为90-100");
+				break;
+				case "B":
+				console.log("分数为80-90");
+				break;
+				case "C":
+				console.log("分数为60-80");
+				break;
+				case "D":
+				console.log("分数为0-60");
+				break;
+				default:
+				console.log("这不是一个正常分数");
+				break;
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

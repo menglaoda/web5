@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			//定义变量   var是关键字，a1变量名，
+			var a1 = 10;
+			var a2 ="hello";
+			var a3;
+			
+			//同时定义多个变量
+			var a4=1,a5=2,a6=3;
+			console.log(a6);
+			
+			//typeof 操作符是用来检测变量的数据类型
+			console.log(typeof a2);
+			
+			console.log(typeof a3);//"undefined"
+			
+			var b1 = null;
+			console.log(typeof b1);//"object"
+			console.log(b1==a3);//"true"
+			
+			//Boolean类型
+			var b2 = true;
+			console.log(typeof b2)
+			
+			//Number 类型
+			var b3 = .8;//0.8
+			console.log(typeof b3);
+			
+			//科学技术法
+			var b4 = 5.3e5;
+			console.log(b4);
+			
+			//NaN, 即非数值(Not a Number)是一个特殊的值
+			//"Infinity" 正无穷
+			//"-Infinity" 负无穷
+			var b5 = -12/0;
+			console.log(b5);
+			console.log(a1/a2);//"NaN"	
+			
+			// isNaN()函数
+			console.log(isNaN(a1/a2));//"true"
+			
+			//parseInt(),是把其它类型转换为number类型，数字保留整数部分；
+			var c1 = 10;
+			console.log(parseInt(c1/3));//"10"
+			
+			//parseFloat()  是把其它类型转换为浮点型（小数）
+			var c2 = 10.5;
+			console.log(parseFloat(c1/3));
+			
+			//四舍五入Math.round(78.566)
+			console.log(Math.round(c2));
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

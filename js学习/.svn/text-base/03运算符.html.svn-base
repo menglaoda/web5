@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			//算术运算符(+-*/%)
+			var a1 = 10;
+			var a2 = 3;
+			console.log(a1%a2);
+			
+			//自增、自减
+			++a1;
+			console.log(a1);
+			
+			//关系运算符(==,!=,>,<,>=,<=)
+			console.log(a1>a2);
+			
+			//逻辑运算符(||,&&,!)
+			var b1 =10,b2=20,b3=30;
+			console.log(!(b1<b2 || b2>b3));
+			
+			//赋值运算符(=,+=,-=,*=,/=,%=)
+			b1+=5;//b1=b1+5
+			console.log(b1);
+			
+			//字符串运算符
+			var c1 = "w",c2="10",c3=20;//逗号运算符
+			console.log(c3+parseInt(c2));
+			
+//			3.三元(目)条件运算符
+//			       语法：表达式1?表达式2：表达式3
+//			        表达式1为真时，则执行表达式2，否则执行表达式3
+			var d1 =20,d2=30;
+			d1>d2?console.log("最大数为"+d1):console.log("最大数为"+d2);
+			
+			
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

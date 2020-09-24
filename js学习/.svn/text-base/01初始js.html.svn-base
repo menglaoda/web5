@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			//在这里写js代码
+			/*
+			多
+			行
+			注
+			释
+			*/
+			//弹窗输出内容
+			//alert("亲，是否对我似曾相识！") ;
+			
+			//把内容打印到页面上
+			document.write("亲，我在页面上，跟alert不一样噢！");
+			
+			//把内容打印到控制台上
+			console.log("控制台");
+
+		</script>
+		<script src="js/01.js" type="text/javascript" charset="utf-8">
+			//引入外部文件的script中间不可以写js代码，写了也是白写			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
